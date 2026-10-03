@@ -1,5 +1,0 @@
-{
-  "name": "gpu-kernel-nvlink-contention-profiler",
-  "service": "aws-kiro",
-  "version": "1.0.0"
-}

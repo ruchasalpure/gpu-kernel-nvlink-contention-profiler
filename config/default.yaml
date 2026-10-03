@@ -1,6 +1,0 @@
-app:
-  name: "gpu-kernel-nvlink-contention-profiler"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
