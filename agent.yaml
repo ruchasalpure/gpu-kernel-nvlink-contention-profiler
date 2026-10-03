@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "gpu-kernel-nvlink-contention-profiler"
+version: "1.0.0"
+category: "devtools"
+author: "Rucha Salpure"
+description: "Profiles GPU tensor core utilization and inter-node NVLink interconnect bandwidth to pinpoint all-reduce communication bottlenecks in LLM training"
+capabilities:
+  - "nvlink-bandwidth-profiling"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "nvlink-bandwidth-profiling"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true
